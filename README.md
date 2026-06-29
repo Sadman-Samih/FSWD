@@ -23,15 +23,6 @@ This repo is my attempt to fix that. Two guides — one for beginners, one for p
 |---|---|
 | [`advanceFSWDguide.md`](./guides/advanceFSWDguide.md) | TypeScript, Next.js, Tailwind, authentication, testing, security, performance, CI/CD, Docker, WebSockets, state management, GraphQL, microservices, serverless, mobile — 27 chapters. |
 
-### Agent Context Files
-
-If you're using AI tooling to work with these guides, these files help the AI understand the structure and style so it doesn't hallucinate nonsense.
-
-| File | What It Does |
-|---|---|
-| [`contextFSWDagent.md`](./guides/contextFSWDagent.md) | Context for the beginner guide |
-| [`contextAdvanceFSWDagent.md`](./guides/contextAdvanceFSWDagent.md) | Context for the advanced guide |
-
 ---
 
 ## How to Use
