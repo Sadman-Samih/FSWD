@@ -309,3 +309,5 @@ function displayWeather(data, city) {
   resultDiv.classList.remove('hidden');
 }
 ```
+
+

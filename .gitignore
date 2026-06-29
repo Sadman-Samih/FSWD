@@ -9,3 +9,5 @@ Thumbs.db
 # Node (for project solutions that might have node_modules)
 node_modules/
 .env
+
+

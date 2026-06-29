@@ -9,3 +9,5 @@ Check these only after you've tried the project yourself. The point is to learn,
 | [03-weather-app.md](./03-weather-app.md) | weather-index.html, weather-style.css, weather.js | API, fetch, async/await, JSON |
 | [04-blog-with-comments.md](./04-blog-with-comments.md) | backend/* + frontend/* | Full stack, Express, SQLite, JOINs, CRUD |
 | [05-url-shortener.md](./05-url-shortener.md) | backend/* + frontend/index.html | Redirects, crypto, clipboard API |
+
+
