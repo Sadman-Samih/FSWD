@@ -40,7 +40,7 @@ If you're using AI tooling to work with these guides, these files help the AI un
 git clone https://github.com/Sadman-Samih/FSWD.git
 ```
 
-Open the folder in **Obsidian** — wikilinks, diagrams, and the table of contents will work without any setup. Any markdown reader works too.
+Open the folder in **Obsidian** (free, available on everything). The guides are built for it — wikilinks in the table of contents work without clicking through a dozen nested files, every heading is its own link, and the diagrams render cleanly. Any markdown reader will show the content, but Obsidian is where it actually feels like a guide instead of a wall of text.
 
 ---
 
