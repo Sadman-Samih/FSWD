@@ -1,0 +1,11 @@
+﻿# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Node (for project solutions that might have node_modules)
+node_modules/
+.env
