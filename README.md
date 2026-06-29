@@ -1,120 +1,86 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/FSWD-Definitive%20Guide%202026-%233b82f6?style=for-the-badge" alt="FSWD Badge">
-</p>
+# FSWD — The Definitive Guide to Coding in 2026
 
-<h1 align="center">📘 FSWD — The Definitive Guide to Coding in 2026</h1>
+Trying to learn web development in 2026 is overwhelming. There's a million tutorials, half of them are outdated, and nobody tells you what actually matters.
 
-<p align="center">
-  From absolute beginner to production-ready developer.<br>
-  No fluff. No gatekeeping. Just the stuff that actually matters.
-</p>
-
-<p align="center">
-  <a href="#-the-curriculum">Curriculum</a> •
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-project-structure">Structure</a> •
-  <a href="#-license">License</a>
-</p>
+This repo is my attempt to fix that. Two guides — one for beginners, one for people who've built a thing or two and want to go deeper. No fluff, no gatekeeping, just the stuff I wish someone had told me.
 
 ---
 
-## 📖 The Curriculum
+## What's Here
 
-### 🐣 Beginner Track
+### For Beginners
 
-| Guide | What You'll Learn |
+| Guide | What's Inside |
 |---|---|
-| [`Guide Full Stack Web Development.md`](./guides/Guide%20Full%20Stack%20Web%20Development.md) | HTML, CSS, JS, Node/Express, SQL, Git, deployment, React, Electron — 19 chapters, 190+ KB of analogies, exercises, and real talk |
-| [`Attendance Tracker guide.md`](./guides/Attendance%20Tracker%20guide.md) | Build a real no-login attendance tracker with Supabase + PWA — step-by-step |
-| [`HTML Cheat Sheet & Poster.md`](./guides/Full%20Stack%20Web%20Development%20-%20HTML%20Cheat%20Sheet%20and%20Poster.md) | One-page printable reference: HTML, CSS, JS, React, TypeScript, Tailwind, SQL, Git, HTTP codes |
-| [`solutions/`](./guides/solutions/) | Working solution code for all 5 practice projects — peek only when stuck |
+| [`Guide Full Stack Web Development.md`](./guides/Guide%20Full%20Stack%20Web%20Development.md) | HTML, CSS, JavaScript, Node.js/Express, SQL, Git, deployment, React, Electron — 19 chapters, ~190KB. Lots of analogies, exercises, and honest explanations. |
+| [`Attendance Tracker guide.md`](./guides/Attendance%20Tracker%20guide.md) | Build a real attendance tracker step-by-step using Supabase. Good first project. |
+| [`HTML Cheat Sheet & Poster.md`](./guides/Full%20Stack%20Web%20Development%20-%20HTML%20Cheat%20Sheet%20and%20Poster.md) | Printable one-page reference. HTML, CSS, JS, React, TypeScript, Tailwind, SQL, Git, HTTP codes. |
+| [`solutions/`](./guides/solutions/) | Working code for all 5 practice projects. Try it yourself first. |
 
-### 🚀 Advanced Track
+### For People Who Know the Basics
 
-| Guide | What You'll Learn |
+| Guide | What's Inside |
 |---|---|
-| [`advanceFSWDguide.md`](./guides/advanceFSWDguide.md) | TypeScript, Next.js, Tailwind, Auth, Testing, Security, Performance, CI/CD, Docker, WebSockets, State Management, GraphQL, Microservices, Serverless, Mobile strategies — 27 chapters |
+| [`advanceFSWDguide.md`](./guides/advanceFSWDguide.md) | TypeScript, Next.js, Tailwind, authentication, testing, security, performance, CI/CD, Docker, WebSockets, state management, GraphQL, microservices, serverless, mobile — 27 chapters. |
 
-### 🤖 Agent Context Files
+### Agent Context Files
 
-These files help AI assistants understand the guides' structure, style, and conventions — useful if you're building with AI tooling.
+If you're using AI tooling to work with these guides, these files help the AI understand the structure and style so it doesn't hallucinate nonsense.
 
-| File | Purpose |
+| File | What It Does |
 |---|---|
-| [`contextFSWDagent.md`](./guides/contextFSWDagent.md) | Context for the beginner FSWD guide |
+| [`contextFSWDagent.md`](./guides/contextFSWDagent.md) | Context for the beginner guide |
 | [`contextAdvanceFSWDagent.md`](./guides/contextAdvanceFSWDagent.md) | Context for the advanced guide |
 
 ---
 
-## ⚡ Quick Start
+## How to Use
 
 ```bash
-# Clone the repo
 git clone https://github.com/sadmansamih/FSWD.git
-
-# Open in Obsidian (recommended) or any markdown reader
-# Start with:
-open guides/Guide\ Full\ Stack\ Web\ Development.md
 ```
 
-**Pro tip:** Open the whole folder in **Obsidian** for the best experience — wikilinks, diagrams, and ToC navigation work natively.
+Open the folder in **Obsidian** — wikilinks, diagrams, and the table of contents will work without any setup. Any markdown reader works too.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 FSWD/
-├── guides/                          # All learning content
-│   ├── Guide Full Stack Web Development.md   # 🐣 Beginner FSWD (19 ch.)
-│   ├── advanceFSWDguide.md                   # 🚀 Advanced FSWD (27 ch.)
-│   ├── Attendance Tracker guide.md           # 📱 Build-along project
+├── guides/
+│   ├── Guide Full Stack Web Development.md     # Beginner guide
+│   ├── advanceFSWDguide.md                     # Advanced guide
+│   ├── Attendance Tracker guide.md             # Project walkthrough
 │   ├── Full Stack Web Development - HTML Cheat Sheet and Poster.md
-│   ├── contextFSWDagent.md                   # 🤖 AI context (beginner)
-│   ├── contextAdvanceFSWDagent.md            # 🤖 AI context (advanced)
-│   └── solutions/                            # 💡 Practice project code
-├── .gitignore
-├── LICENSE                         # CC BY 4.0
-└── README.md                       # You are here
+│   ├── contextFSWDagent.md
+│   ├── contextAdvanceFSWDagent.md
+│   └── solutions/
+├── LICENSE
+└── README.md
 ```
 
 ---
 
-## 📊 By the Numbers
+## Stats
 
-```
-Chapters:     46 total  (19 beginner + 27 advanced)
-Lines:        ~10,500
-Size:         ~315 KB
-License:      CC BY 4.0 (free to share, remix, teach)
-Style:        Analogy-driven, conversational, no-bullshit
-Prereq:       None. Start with Chapter 1.
-```
+- **Chapters:** 46 (19 beginner + 27 advanced)
+- **Size:** ~315KB
+- **License:** CC BY 4.0 — share it, remix it, teach it, just give credit
+- **Prereq:** None, seriously. Start at chapter 1.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Found a typo? Want to add a chapter? Open a PR or issue.
-
-This is an open educational resource — improvements, corrections, and translations are welcome.
+Found a typo? Something I got wrong? Want to add a chapter on something I missed? Open an issue or a PR. This is meant to be a living thing.
 
 ---
 
-## 📜 License
+## License
 
-**CC BY 4.0** — Creative Commons Attribution 4.0 International
-
-You are free to:
-- **Share** — copy and redistribute in any medium
-- **Adapt** — remix, transform, and build upon it for any purpose
-
-Under one condition: **attribution** — credit the original author.
-
-Full text: [`LICENSE`](./LICENSE)
+CC BY 4.0 — do whatever you want with it, just credit the source.
 
 ---
 
-<p align="center">
-  <sub>Built with ❤️ and way too much caffeine — Sadman Samih, 2026</sub>
-</p>
+*Built with way too much caffeine — Sadman Samih, 2026*
