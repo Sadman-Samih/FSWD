@@ -12,7 +12,7 @@ This repo is my attempt to fix that. Two guides — one for beginners, one for p
 
 | Guide | What's Inside |
 |---|---|
-| [`Guide Full Stack Web Development.md`](./guides/Guide%20Full%20Stack%20Web%20Development.md) | HTML, CSS, JavaScript, Node.js/Express, SQL, Git, deployment, React, Electron — 19 chapters, ~190KB. Lots of analogies, exercises, and honest explanations. |
+| [`Guide Full Stack Web Development.md`](./guides/Guide%20Full%20Stack%20Web%20Development.md) | HTML, CSS, JavaScript, Node.js/Express, SQL, Git, deployment, React, Electron — 19 chapters, ~190KB. Lots of analogies, exercises, and explanations using analogies. |
 | [`Attendance Tracker guide.md`](./guides/Attendance%20Tracker%20guide.md) | Build a real attendance tracker step-by-step using Supabase. Good first project. |
 | [`HTML Cheat Sheet & Poster.md`](./guides/Full%20Stack%20Web%20Development%20-%20HTML%20Cheat%20Sheet%20and%20Poster.md) | Printable one-page reference. HTML, CSS, JS, React, TypeScript, Tailwind, SQL, Git, HTTP codes. |
 | [`solutions/`](./guides/solutions/) | Working code for all 5 practice projects. Try it yourself first. |
