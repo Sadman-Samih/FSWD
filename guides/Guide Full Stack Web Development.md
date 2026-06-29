@@ -11,8 +11,8 @@
 ## How to Use This Guide
 
 - **If you're brand new:** Read chapters 1–4 in order. Do every exercise.
-- **If you know some HTML/CSS:** Jump to chapter 5 (JavaScript).
-- **If you're comfortable with frontend:** Start at chapter 7 (Backend).
+- **If you know some HTML/CSS:** Jump to Chapter 7 (JavaScript).
+- **If you're comfortable with frontend:** Start at Chapter 9 (Backend).
 
 Each chapter ends with a **Your Turn** section — actually do these. Coding is a skill, not a spectator sport.
 
@@ -21,18 +21,18 @@ Each chapter ends with a **Your Turn** section — actually do these. Coding is 
 ## Table of Contents
 
 1. [[#1. So You Want to Build Websites?|So You Want to Build Websites?]]
-2. [[#2. How the Web Actually Works|How the Web Actually Works]]
-3. [[#3. Setting Up Your Tools|Setting Up Your Tools]]
-4. [[#4. HTML — The Language Your Browser Speaks|HTML — The Language Your Browser Speaks]]
-5. [[#5. CSS — Making Things Look Good|CSS — Making Things Look Good]]
-6. [[#6. JavaScript — Bringing Your Site to Life|JavaScript — Bringing Your Site to Life]]
-7. [[#7. The Backend — What Happens Behind the Scenes|The Backend — What Happens Behind the Scenes]]
-8. [[#8. Databases — Remembering Things|Databases — Remembering Things]]
-9. [[#9. Building Your First Full Stack App|Building Your First Full Stack App]]
-10. [[#10. APIs — How Frontend and Backend Talk|APIs — How Frontend and Backend Talk]]
-11. [[#11. Deploying — Showing Your Work to the World|Deploying — Showing Your Work to the World]]
-12. [[#12. Git & GitHub — Time Travel for Your Code|Git & GitHub — Time Travel for Your Code]]
-13. [[#13. Your Learning Roadmap|Your Learning Roadmap]]
+2. [[#2. Your Learning Roadmap|Your Learning Roadmap]]
+3. [[#3. How the Web Actually Works|How the Web Actually Works]]
+4. [[#4. Setting Up Your Tools|Setting Up Your Tools]]
+5. [[#5. HTML — The Language Your Browser Speaks|HTML — The Language Your Browser Speaks]]
+6. [[#6. CSS — Making Things Look Good|CSS — Making Things Look Good]]
+7. [[#7. JavaScript — Bringing Your Site to Life|JavaScript — Bringing Your Site to Life]]
+8. [[#8. The Backend — What Happens Behind the Scenes|The Backend — What Happens Behind the Scenes]]
+9. [[#9. Databases — Remembering Things|Databases — Remembering Things]]
+10. [[#10. Building Your First Full Stack App|Building Your First Full Stack App]]
+11. [[#11. APIs — How Frontend and Backend Talk|APIs — How Frontend and Backend Talk]]
+12. [[#12. Deploying — Showing Your Work to the World|Deploying — Showing Your Work to the World]]
+13. [[#13. Git & GitHub — Time Travel for Your Code|Git & GitHub — Time Travel for Your Code]]
 14. [[#14. Intro to React|Intro to React]]
 15. [[#15. The Complete Reference|The Complete Reference]]
 16. [[#16. Troubleshooting — When Things Break|Troubleshooting — When Things Break]]
@@ -108,8 +108,101 @@ A **full notes app** where you can:
 And you'll understand **every single line of code** that makes it work.
 
 ---
+## 2. Your Learning Roadmap
 
-## 2. How the Web Actually Works
+### Month 1: Foundation
+
+```
+Week 1: HTML
+  ├── Learn all common tags
+  ├── Build a personal profile page
+  └── Build a recipe page
+
+Week 2: CSS
+  ├── Box model, colors, fonts
+  ├── Flexbox (practice for 2 days straight)
+  ├── Responsive design with media queries
+  └── Style your profile and recipe pages
+
+Week 3: JavaScript Basics
+  ├── Variables, data types, operators
+  ├── Conditionals and loops
+  ├── Functions and arrays
+  └── Build a calculator
+
+Week 4: JavaScript DOM
+  ├── Selecting and manipulating elements
+  ├── Events (click, submit, input)
+  ├── Build a to-do list
+  └── Build a simple quiz app
+```
+
+### Month 2: Backend
+
+```
+Week 5: Node.js & Express
+  ├── What is a server?
+  ├── Routes and responses
+  ├── Middleware
+  └── Build a simple API (without database)
+
+Week 6: Databases
+  ├── SQL basics (SELECT, INSERT, UPDATE, DELETE)
+  ├── SQLite with better-sqlite3
+  └── Connect your API to a database
+
+Week 7: Full Stack Project
+  ├── Build the Notes App
+  ├── Frontend + Backend + Database
+  ├── Test everything
+  └── Deploy it
+
+Week 8: Git & Deployment
+  ├── Git basics (add, commit, push, pull)
+  ├── GitHub
+  ├── Deploy to Vercel/Render
+  └── Share your Notes App with someone
+```
+
+### Month 3: Level Up
+
+```
+Week 9: React Fundamentals
+  ├── Components, props, state
+  ├── JSX
+  └── Build a React to-do list
+
+Week 10: Authentication
+  ├── How login works (JWT tokens)
+  ├── Register, login, protected routes
+  └── Add auth to your Notes App
+
+Week 11: TypeScript
+  ├── Types, interfaces
+  ├── Why TypeScript saves you from bugs
+  └── Convert your project to TypeScript
+
+Week 12: Polish & Portfolio
+  ├── Testing with Jest
+  ├── Performance optimization
+  ├── Build a portfolio site
+  └── Apply for jobs / freelance
+```
+
+### Learning Resources
+
+| Resource | Best for |
+|---|---|
+| [MDN Web Docs](https://developer.mozilla.org) | The official documentation (free, authoritative) |
+| [freeCodeCamp](https://freecodecamp.org) | Interactive exercises (free) |
+| [The Odin Project](https://theodinproject.com) | Full curriculum (free, project-based) |
+| [JavaScript.info](https://javascript.info) | Deep JavaScript tutorials (free) |
+| [Frontend Mentor](https://frontendmentor.io) | Practice with real designs (free) |
+| [CSS Tricks](https://css-tricks.com) | CSS guides and tips (free) |
+
+---
+
+## 3. How the Web Actually Works
 
 ### Your Browser's Secret Life
 
@@ -196,7 +289,7 @@ https://www.example.com:443/blog/article?page=2#comments
 
 ---
 
-## 3. Setting Up Your Tools
+## 4. Setting Up Your Tools
 
 You need four things to start building websites. Let's install them.
 
@@ -436,7 +529,7 @@ If you can do all 10, you know enough terminal to survive. The rest you'll learn
 
 ---
 
-## 4. HTML — The Language Your Browser Speaks
+## 5. HTML — The Language Your Browser Speaks
 
 ### What is HTML?
 
@@ -719,7 +812,7 @@ Try to write it without looking at the cheat sheet above. Use Google if you forg
 
 ---
 
-## 5. CSS — Making Things Look Good
+## 6. CSS — Making Things Look Good
 
 ### What is CSS?
 
@@ -1411,7 +1504,7 @@ body {
 
 ### Your Turn — Mini Project: Style Your Recipe Page
 
-Take the recipe page from Chapter 4 and add CSS:
+Take the recipe page from Chapter 5 and add CSS:
 1. A nice background color (not white)
 2. Cards for the ingredients and steps sections
 3. The title centered and in a nice color
@@ -1531,7 +1624,7 @@ Don't worry if it's not beautiful — you're learning. Every CSS master started 
 
 ---
 
-## 6. JavaScript — Bringing Your Site to Life
+## 7. JavaScript — Bringing Your Site to Life
 
 ### What is JavaScript?
 
@@ -2322,7 +2415,7 @@ Don't worry about saving data yet (no database) — just get it working in the b
 
 ---
 
-## 7. The Backend — What Happens Behind the Scenes
+## 8. The Backend — What Happens Behind the Scenes
 
 So far, everything has been happening in the browser. Now we're going to build something that lives on a server.
 
@@ -2352,7 +2445,7 @@ Your Browser                    The Server
 
 ### 7.2 Node.js — JavaScript on the Server
 
-You already installed Node.js in Chapter 3. Now let's use it.
+You already installed Node.js in Chapter 4. Now let's use it.
 
 **Node.js lets you run JavaScript outside the browser.** This means:
 - No `document.getElementById` (there's no browser)
@@ -2754,7 +2847,7 @@ app.get('*', (req, res) => {
 
 ---
 
-## 8. Databases — Remembering Things
+## 9. Databases — Remembering Things
 
 So far, all our data disappears when the server restarts. We need a place to store things permanently. That's a database.
 
@@ -2992,7 +3085,7 @@ app.listen(3000, () => console.log('Server running on port 3000'));
 
 ---
 
-## 9. Building Your First Full Stack App
+## 10. Building Your First Full Stack App
 
 Now we'll build a complete Notes App — frontend AND backend AND database. By the end, you'll have a working app that you can deploy and share.
 
@@ -3599,7 +3692,7 @@ Or, serve frontend through Express (change `API_URL` to relative path `/api/note
 
 ---
 
-## 10. APIs — How Frontend and Backend Talk
+## 11. APIs — How Frontend and Backend Talk
 
 ### 10.1 What is an API?
 
@@ -3769,7 +3862,7 @@ app.use(cors({
 
 ---
 
-## 11. Deploying — Showing Your Work to the World
+## 12. Deploying — Showing Your Work to the World
 
 ### 11.1 Deploying the Frontend (Static Sites)
 
@@ -3913,7 +4006,7 @@ Things WILL go wrong when you deploy. Here's how to fix the most common issues.
 
 ---
 
-## 12. Git & GitHub — Time Travel for Your Code
+## 13. Git & GitHub — Time Travel for Your Code
 
 ### 12.1 Why Git?
 
@@ -4054,99 +4147,6 @@ build/
 
 ---
 
-## 13. Your Learning Roadmap
-
-### Month 1: Foundation
-
-```
-Week 1: HTML
-  ├── Learn all common tags
-  ├── Build a personal profile page
-  └── Build a recipe page
-
-Week 2: CSS
-  ├── Box model, colors, fonts
-  ├── Flexbox (practice for 2 days straight)
-  ├── Responsive design with media queries
-  └── Style your profile and recipe pages
-
-Week 3: JavaScript Basics
-  ├── Variables, data types, operators
-  ├── Conditionals and loops
-  ├── Functions and arrays
-  └── Build a calculator
-
-Week 4: JavaScript DOM
-  ├── Selecting and manipulating elements
-  ├── Events (click, submit, input)
-  ├── Build a to-do list
-  └── Build a simple quiz app
-```
-
-### Month 2: Backend
-
-```
-Week 5: Node.js & Express
-  ├── What is a server?
-  ├── Routes and responses
-  ├── Middleware
-  └── Build a simple API (without database)
-
-Week 6: Databases
-  ├── SQL basics (SELECT, INSERT, UPDATE, DELETE)
-  ├── SQLite with better-sqlite3
-  └── Connect your API to a database
-
-Week 7: Full Stack Project
-  ├── Build the Notes App
-  ├── Frontend + Backend + Database
-  ├── Test everything
-  └── Deploy it
-
-Week 8: Git & Deployment
-  ├── Git basics (add, commit, push, pull)
-  ├── GitHub
-  ├── Deploy to Vercel/Render
-  └── Share your Notes App with someone
-```
-
-### Month 3: Level Up
-
-```
-Week 9: React Fundamentals
-  ├── Components, props, state
-  ├── JSX
-  └── Build a React to-do list
-
-Week 10: Authentication
-  ├── How login works (JWT tokens)
-  ├── Register, login, protected routes
-  └── Add auth to your Notes App
-
-Week 11: TypeScript
-  ├── Types, interfaces
-  ├── Why TypeScript saves you from bugs
-  └── Convert your project to TypeScript
-
-Week 12: Polish & Portfolio
-  ├── Testing with Jest
-  ├── Performance optimization
-  ├── Build a portfolio site
-  └── Apply for jobs / freelance
-```
-
-### Learning Resources
-
-| Resource | Best for |
-|---|---|
-| [MDN Web Docs](https://developer.mozilla.org) | The official documentation (free, authoritative) |
-| [freeCodeCamp](https://freecodecamp.org) | Interactive exercises (free) |
-| [The Odin Project](https://theodinproject.com) | Full curriculum (free, project-based) |
-| [JavaScript.info](https://javascript.info) | Deep JavaScript tutorials (free) |
-| [Frontend Mentor](https://frontendmentor.io) | Practice with real designs (free) |
-| [CSS Tricks](https://css-tricks.com) | CSS guides and tips (free) |
-
----
 
 ## 14. Intro to React
 
@@ -5025,40 +5025,40 @@ A quick-reference dictionary of terms used throughout this guide, in plain Engli
 
 | Term | Plain English Definition | See Also |
 |---|---|---|
-| **API** (Application Programming Interface) | A waiter between two programs. You tell it what you want, it brings the response. Like a menu — you don't need to know the kitchen. | Chapter 10 |
-| **Backend** | The part of a web app that runs on a server. Handles logic, databases, authentication. The "kitchen" of the restaurant analogy. | Chapter 7 |
-| **CORS** (Cross-Origin Resource Sharing) | A browser security rule. If your frontend (domain A) tries to talk to an API on domain B, the browser blocks it unless the server says "it's OK." | Chapter 10, Chapter 11.5 |
-| **CSS** (Cascading Style Sheets) | The language that makes HTML look good — colors, layout, fonts, animations. The "plating" of the restaurant analogy. | Chapter 5 |
-| **Database** | A structured place to store data permanently. Like a filing cabinet for your app. SQLite stores data in a single file; Supabase is cloud-based. | Chapter 8 |
-| **DNS** (Domain Name System) | The phonebook of the internet. Converts `google.com` into an IP address like `142.250.80.14`. | Chapter 2 |
-| **DOM** (Document Object Model) | The browser's internal representation of your HTML. JavaScript can read and modify it. Think of it as a tree of elements. | Chapter 6.12 |
-| **Endpoint** | A specific URL on an API. Like `/api/users` or `/api/login`. Each endpoint does one thing. | Chapter 10 |
-| **Express** | A Node.js framework for building servers. Like a pre-built kitchen with all the tools ready. | Chapter 7 |
-| **Fetch** | A browser function for making HTTP requests from JavaScript. `fetch('/api/data')` sends a request and returns a Promise. | Chapter 6.15 |
+| **API** (Application Programming Interface) | A waiter between two programs. You tell it what you want, it brings the response. Like a menu — you don't need to know the kitchen. | Chapter 11 |
+| **Backend** | The part of a web app that runs on a server. Handles logic, databases, authentication. The "kitchen" of the restaurant analogy. | Chapter 8 |
+| **CORS** (Cross-Origin Resource Sharing) | A browser security rule. If your frontend (domain A) tries to talk to an API on domain B, the browser blocks it unless the server says "it's OK." | Chapter 11, Chapter 12.5 |
+| **CSS** (Cascading Style Sheets) | The language that makes HTML look good — colors, layout, fonts, animations. The "plating" of the restaurant analogy. | Chapter 6 |
+| **Database** | A structured place to store data permanently. Like a filing cabinet for your app. SQLite stores data in a single file; Supabase is cloud-based. | Chapter 9 |
+| **DNS** (Domain Name System) | The phonebook of the internet. Converts `google.com` into an IP address like `142.250.80.14`. | Chapter 3 |
+| **DOM** (Document Object Model) | The browser's internal representation of your HTML. JavaScript can read and modify it. Think of it as a tree of elements. | Chapter 7.12 |
+| **Endpoint** | A specific URL on an API. Like `/api/users` or `/api/login`. Each endpoint does one thing. | Chapter 11 |
+| **Express** | A Node.js framework for building servers. Like a pre-built kitchen with all the tools ready. | Chapter 8 |
+| **Fetch** | A browser function for making HTTP requests from JavaScript. `fetch('/api/data')` sends a request and returns a Promise. | Chapter 7.15 |
 | **Frontend** | The part of a web app that runs in the browser (HTML, CSS, JS). What the user sees and interacts with. The "dining room." | Chapters 4-6 |
 | **Full Stack** | Building both frontend AND backend. Full stack developers can build an entire web app themselves. | Chapter 1 |
-| **Git** | A tool that tracks changes to your code over time. Like "Track Changes" in Word, but for code. | Chapter 12 |
-| **GitHub** | A website that stores Git repositories online. Like Google Drive but for code. | Chapter 12 |
+| **Git** | A tool that tracks changes to your code over time. Like "Track Changes" in Word, but for code. | Chapter 13 |
+| **GitHub** | A website that stores Git repositories online. Like Google Drive but for code. | Chapter 13 |
 | **Hook** (React) | A function that lets you "hook into" React features (state, effects, etc.). Always starts with `use`. | Chapter 14 |
-| **HTML** (HyperText Markup Language) | The structure language of web pages. Headings, paragraphs, links, images — all defined with HTML tags. | Chapter 4 |
-| **HTTP** (HyperText Transfer Protocol) | The protocol browsers and servers use to communicate. Every web request is an HTTP request. | Chapter 2 |
-| **HTTPS** | HTTP with encryption (SSL/TLS). The padlock icon in your browser. All production sites should use it. | Chapter 11 |
-| **JavaScript** | The programming language of the web. Runs in browsers (frontend) and on servers (Node.js). | Chapter 6 |
+| **HTML** (HyperText Markup Language) | The structure language of web pages. Headings, paragraphs, links, images — all defined with HTML tags. | Chapter 5 |
+| **HTTP** (HyperText Transfer Protocol) | The protocol browsers and servers use to communicate. Every web request is an HTTP request. | Chapter 3 |
+| **HTTPS** | HTTP with encryption (SSL/TLS). The padlock icon in your browser. All production sites should use it. | Chapter 12 |
+| **JavaScript** | The programming language of the web. Runs in browsers (frontend) and on servers (Node.js). | Chapter 7 |
 | **JSX** | An HTML-like syntax used in React. Gets compiled into JavaScript. Example: `<h1>Hello</h1>` inside a `.jsx` file. | Chapter 14 |
-| **JSON** | A text format for data exchange. Looks like: `{"name": "Alice", "age": 30}`. APIs use JSON for sending/receiving data. | Chapter 10 |
-| **Middleware** | Functions that run in the middle of a request-response cycle. Used for logging, authentication, parsing, etc. | Chapter 7.6 |
-| **Node.js** | A runtime that lets you run JavaScript on your computer (not just in browsers). Used for building servers. | Chapter 3, 7 |
-| **NPM** (Node Package Manager) | A library of free code packages. `npm install express` downloads Express and all its dependencies. | Chapter 7 |
-| **Promise** | Represents a value that will be available in the future (async). Has `.then()` and `.catch()` methods. | Chapter 6.15 |
+| **JSON** | A text format for data exchange. Looks like: `{"name": "Alice", "age": 30}`. APIs use JSON for sending/receiving data. | Chapter 11 |
+| **Middleware** | Functions that run in the middle of a request-response cycle. Used for logging, authentication, parsing, etc. | Chapter 8.6 |
+| **Node.js** | A runtime that lets you run JavaScript on your computer (not just in browsers). Used for building servers. | Chapter 4, 7 |
+| **NPM** (Node Package Manager) | A library of free code packages. `npm install express` downloads Express and all its dependencies. | Chapter 8 |
+| **Promise** | Represents a value that will be available in the future (async). Has `.then()` and `.catch()` methods. | Chapter 7.15 |
 | **Props** (React) | Data passed from a parent component to a child. Read-only. Like function arguments for components. | Chapter 14 |
-| **Render** | The process of converting code into pixels on screen. Or a cloud hosting service (Render.com). | Chapter 11 |
-| **Responsive Design** | Making a website work on all screen sizes (phone, tablet, desktop) using CSS media queries and flexible layouts. | Chapter 5.8 |
-| **REST** | A style of building APIs. Uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources. | Chapter 10 |
-| **Server** | A computer that runs 24/7 and responds to requests. When you deploy, your code runs on a server. | Chapter 7 |
-| **SQL** (Structured Query Language) | The language for talking to databases. `SELECT * FROM users WHERE id = 1` means "get user with ID 1." | Chapter 8 |
+| **Render** | The process of converting code into pixels on screen. Or a cloud hosting service (Render.com). | Chapter 12 |
+| **Responsive Design** | Making a website work on all screen sizes (phone, tablet, desktop) using CSS media queries and flexible layouts. | Chapter 6.8 |
+| **REST** | A style of building APIs. Uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources. | Chapter 11 |
+| **Server** | A computer that runs 24/7 and responds to requests. When you deploy, your code runs on a server. | Chapter 8 |
+| **SQL** (Structured Query Language) | The language for talking to databases. `SELECT * FROM users WHERE id = 1` means "get user with ID 1." | Chapter 9 |
 | **State** (React) | Data that changes over time and affects what's displayed. Managed with `useState` hook. | Chapter 14 |
-| **URL** (Uniform Resource Locator) | A web address. `https://example.com/page?q=hello#section` — protocol, domain, path, query, fragment. | Chapter 2 |
-| **Vercel** | A cloud platform for deploying frontend apps. Free tier available. Recommended for deploying in this guide. | Chapter 11 |
+| **URL** (Uniform Resource Locator) | A web address. `https://example.com/page?q=hello#section` — protocol, domain, path, query, fragment. | Chapter 3 |
+| **Vercel** | A cloud platform for deploying frontend apps. Free tier available. Recommended for deploying in this guide. | Chapter 12 |
 
 ### How to Use This Glossary
 
@@ -5146,7 +5146,7 @@ Draw your page on paper first. A portfolio usually has:
 
 #### Step 2: HTML structure
 
-Create `index.html`. Use a `<nav>` for navigation, a `<section>` for each section (hero, about, projects, contact), and a `<footer>`. Style it with `style.css`. Write your own CSS using what you learned in Chapter 5.
+Create `index.html`. Use a `<nav>` for navigation, a `<section>` for each section (hero, about, projects, contact), and a `<footer>`. Style it with `style.css`. Write your own CSS using what you learned in Chapter 6.
 
 **Hint:** Use a fixed nav with `position: fixed`, a full-viewport hero with `min-height: 100vh`, a CSS Grid for the project cards, and media queries for mobile.
 
@@ -5158,7 +5158,7 @@ Write your own styles. Use flexbox for the nav and about section, grid for the p
 
 #### Step 4: Deploy
 
-Push this to GitHub and deploy on Vercel (see Chapter 11). Send the link to a friend.
+Push this to GitHub and deploy on Vercel (see Chapter 12). Send the link to a friend.
 
 **When you're done:** You have a live website on the internet that you built from scratch. That's not nothing. That's everything.
 
@@ -5451,7 +5451,7 @@ Create `backend/server.js`. Build these API endpoints:
 - Submit post form: POST to `/api/posts`, then refresh the list
 - Submit comment form: POST to `/api/posts/:id/comments`, then refresh comments
 
-**Try to write the JavaScript yourself.** You have all the pieces from Chapter 6 and 9. If you get stuck, look at the notes app code for reference — it uses the same patterns.
+**Try to write the JavaScript yourself.** You have all the pieces from Chapter 7 and 9. If you get stuck, look at the notes app code for reference — it uses the same patterns.
 
 #### Step 5: Run it
 
