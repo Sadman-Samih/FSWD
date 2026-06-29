@@ -37,7 +37,7 @@ If you're using AI tooling to work with these guides, these files help the AI un
 ## How to Use
 
 ```bash
-git clone https://github.com/sadmansamih/FSWD.git
+git clone https://github.com/Sadman-Samih/FSWD.git
 ```
 
 Open the folder in **Obsidian** — wikilinks, diagrams, and the table of contents will work without any setup. Any markdown reader works too.
